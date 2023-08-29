@@ -1,0 +1,46 @@
+.slider-overlay{
+    background: rgb(0,0,0); 
+    background: linear-gradient(90deg, rgba(0.0.0.1) 0%, rgba(255,255,255,0) 100%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.left-arrow, .right-arrow{
+    color:var(--red);
+    font-size: 50px;
+    z-index: 2;
+    position: absolute;  
+    top: 45%;
+}
+
+.left-arrow{
+    left: 0;
+}
+
+.right-arrow{
+    right: 0;
+}
+
+.slider-movie-info{
+    
+    position: absolute;
+    bottom: 0; 
+    height: 35vh;
+    width: 50%;
+    color: var(--white);
+    padding-left: 50px;
+}
+.slider-movie-info p{
+    margin-bottom: 5px;
+}
+.movie-link{
+    color: var(--white);
+    cursor: pointer;
+}
+
+.movie-link:hover{
+    
+    color: var(--red);
+}

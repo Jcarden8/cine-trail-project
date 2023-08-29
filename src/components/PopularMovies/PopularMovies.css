@@ -1,0 +1,10 @@
+.popular-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-numbers{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
